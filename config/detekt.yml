@@ -1,0 +1,35 @@
+config:
+  validation: true
+
+# Compose uses PascalCase functions and previews that are not called from code.
+naming:
+  FunctionNaming:
+    ignoreAnnotated: ['Composable']
+
+style:
+  UnusedPrivateMember:
+    ignoreAnnotated: ['Preview']
+  MagicNumber:
+    excludes: ['**/test/**', '**/androidTest/**']
+    ignorePropertyDeclaration: true
+    ignoreAnnotation: true
+    ignoreEnums: true
+  WildcardImport:
+    active: false
+  MaxLineLength:
+    maxLineLength: 160
+
+complexity:
+  LongMethod:
+    ignoreAnnotated: ['Composable', 'Test']
+  LongParameterList:
+    ignoreAnnotated: ['Composable']
+    ignoreDefaultParameters: true
+    ignoreDataClasses: true
+  TooManyFunctions:
+    ignorePrivate: true
+
+exceptions:
+  TooGenericExceptionCaught:
+    # These boundaries translate failures for the UI and rethrow cancellation explicitly.
+    excludes: ['**/GiphyRepository.kt', '**/*ViewModel.kt']

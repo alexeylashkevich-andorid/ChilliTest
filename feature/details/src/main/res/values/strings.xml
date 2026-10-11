@@ -1,0 +1,12 @@
+<resources>
+    <string name="back_to_search">Back to search</string>
+    <string name="gif_creator">by @%1$s</string>
+    <string name="share_gif">Share GIF</string>
+    <string name="clipboard_label">GIF</string>
+    <string name="copy_link">Copy link</string>
+    <string name="copied">Copied!</string>
+    <string name="giphy_attribution">Powered by GIPHY</string>
+    <string name="similar_gifs">Similar GIFs</string>
+    <string name="no_similar_gifs">No similar GIFs found</string>
+    <string name="open_similar_gif">Open %1$s</string>
+</resources>

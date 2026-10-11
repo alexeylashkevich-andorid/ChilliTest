@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Loop</string>
+    <string name="offline_message">You\'re offline · Check your internet connection</string>
+</resources>

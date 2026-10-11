@@ -1,0 +1,14 @@
+<resources>
+    <string name="load_more">Load more</string>
+    <string name="app_title">Loop</string>
+    <string name="search_hint">Search GIFs…</string>
+    <string name="clear_search">Clear</string>
+    <string name="category_for_you">Trending</string>
+    <string name="categories_loading">Loading topics…</string>
+    <string name="categories_retry">Topics unavailable · Retry</string>
+    <string name="giphy_attribution">Powered by GIPHY</string>
+    <string name="empty_title">No GIFs found</string>
+    <string name="empty_message">Try another search.</string>
+    <string name="pagination_end">No more GIFs</string>
+    <string name="open_gif">Open %1$s</string>
+</resources>

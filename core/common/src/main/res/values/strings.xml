@@ -1,0 +1,13 @@
+<resources>
+    <string name="retry">Try again</string>
+    <string name="reload_gif">Reload GIF</string>
+    <string name="untitled_gif">Untitled GIF</string>
+    <string name="preview_gif">"✦  %1$s"</string>
+    <string name="error_missing_key">We couldn\'t load GIFs right now. Please try again later.</string>
+    <string name="error_offline">We couldn\'t connect. Check your connection and try again.</string>
+    <string name="error_unauthorized">We couldn\'t load GIFs right now. Please try again later.</string>
+    <string name="error_rate_limited">Too many requests right now. Please try again later.</string>
+    <string name="error_not_found">This GIF is no longer available.</string>
+    <string name="error_service_unavailable">We couldn\'t load GIFs right now. Please try again.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+</resources>

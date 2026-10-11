@@ -1,0 +1,36 @@
+# Gradle, Kotlin, and generated outputs
+.gradle/
+.kotlin/
+build/
+*.apk
+*.aab
+*.apks
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Local configuration and signing credentials
+local.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+
+# IDE and operating-system files
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+
+# Diagnostics
+*.hprof
+*.log
+
+# Local design assets
+/assets/
